@@ -1,0 +1,94 @@
+/* Body Styles */
+body {
+	font-family: Arial, sans-serif;
+
+	background: linear-gradient(45deg, #e52d70, #673ab7);
+	color: #333;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+  }
+  
+  /* Header Styles */
+  header {
+	height: 10vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  /* Main Content Styles */
+  main {
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  /* Video Styles */
+
+#generated-videos {
+	max-width: 100%;
+	height: auto;
+	border-radius: 50%;
+	overflow: hidden;
+  }
+  
+#generated-videos {
+	max-width: 100%;
+	height: auto;
+	object-fit: cover;
+  }
+
+  
+  /* Output Styles */
+  #output {
+	width: 50%;
+	margin-top: 2vh;
+	font-size: 2rem;
+	font-weight: bold;
+	padding: 1.5rem;
+	background-color: #FFF;
+	border-radius: 20px;
+  }
+  
+  /* Text Styles */
+  h2 {
+	font-size: 2rem;
+	font-weight: bold;
+	margin-top: 3vh;
+  }
+  
+  p {
+	font-size: 1.5rem;
+	margin: 2vh 0;
+  }
+  
+  /* Button Styles */
+  button {
+	background-color: #FFF;
+	border: none;
+	color: #333;
+	padding: 1rem 2rem;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1.5rem;
+	margin: 2vh;
+	cursor: pointer;
+	border-radius: 20px;
+	transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover {
+	background-color: #FFA000;
+  }
+  
+
+#transcript-output,
+#AItext {
+  font-size: 2rem;
+  font-family: Arial, sans-serif;
+}
